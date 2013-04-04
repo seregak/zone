@@ -2,7 +2,7 @@
 cd /home/serega/files
 
 #load content to site
-php /project/scripts/content_loader.php --src `pwd`
+php /project/scripts/zone/content_loader.php --src `pwd`
 
 cd /home/serega/files/clips/80-90-s
 shopt -s nullglob
