@@ -180,44 +180,21 @@ function getBody($opt) {
         <source type="video/mp4" src="clip/{$opt['trans_filename']}" />
     </video>
 </p>
-<p><a href="clip/{$opt['trans_filename']}">Cкачать клип</a></p>
+<p><a href="clip/{$opt['trans_filename']}">Cкачать клип</a> - {$opt['name']}</p>
 <p><br /> <strong>Прослушать в mp3</strong></p>
 <p>
     <audio src="mp3/{$opt['trans_name']}.mp3" type="audio/mp3" class="/mp3">
     </audio>
 </p>
-<p><a href="mp3/{$opt['trans_name']}.mp3">Cкачать mp3</a></p>
+<p><a href="mp3/{$opt['trans_name']}.mp3">Cкачать mp3</a> - {$opt['name']}</p>
 
 
-<p><strong>Проголосуйте за клип:</strong></p>
-<br>
-<div style="float:left; width : 15%">
-<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ru">Твитнуть</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<br>
-</div>
-<div style="float:left; width : 20%">
-<fb:like send="false" layout="button_count" width="450" show_faces="true"></fb:like>
-</div>
-<div style="float:left; width : 15%">
-<a target="_blank" class="mrc__plugin_uber_like_button" href="http://connect.mail.ru/share" data-mrc-config="{'cm' : '1', 'ck' : '1', 'sz' : '20', 'st' : '1', 'tp' : 'ok'}">Нравится</a>
-<script src="http://cdn.connect.mail.ru/js/loader.js" type="text/javascript" charset="UTF-8"></script>
-</div>
-<div style="float:left; width : 20%">
-<a target="_blank" class="mrc__plugin_uber_like_button" href="http://connect.mail.ru/share" data-mrc-config="{'cm' : '1', 'ck' : '1', 'sz' : '20', 'st' : '1', 'tp' : 'mm'}">Нравится</a>
-<script src="http://cdn.connect.mail.ru/js/loader.js" type="text/javascript" charset="UTF-8"></script>
-</div>
-<div style="float:left; width : 10%">
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<g:plusone></g:plusone>
-</div>
-<div style="float:left; width : 10%">
-<script type="text/javascript"><!--
-document.write(VK.Share.button(false,{type: "round", text: "Сохранить"}));
---></script>
-</script>
-</div>
-<br>
+<p><strong>Поделиться клипом:</strong></p>
+<script type="text/javascript" src="//yandex.st/share/share.js"
+charset="utf-8"></script>
+<div class="yashare-auto-init" data-yashareL10n="ru"
+ data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"
+></div>
 <br>
 HTML;
 	return addslashes($ret);
