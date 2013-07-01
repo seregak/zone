@@ -9,7 +9,7 @@ shopt -s nullglob
 for NAME in *
 do
 	echo $NAME
-	TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+	TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
 	if [[ `file -b "$NAME"` == directory ]]; then
 	mv -v "$NAME" "$TRS"
 	cd "$TRS"
@@ -34,7 +34,7 @@ shopt -s nullglob
 for NAME in *
 do
         echo $NAME
-        TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+        TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
         if [[ `file -b "$NAME"` == directory ]]; then
         mv -v "$NAME" "$TRS"
         cd "$TRS"
@@ -59,7 +59,7 @@ shopt -s nullglob
 for NAME in *
 do
         echo $NAME
-        TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+        TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
         if [[ `file -b "$NAME"` == directory ]]; then
         mv -v "$NAME" "$TRS"
         cd "$TRS"
@@ -84,7 +84,7 @@ shopt -s nullglob
 for NAME in *
 do
         echo $NAME
-        TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+        TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
         if [[ `file -b "$NAME"` == directory ]]; then
         mv -v "$NAME" "$TRS"
         cd "$TRS"
@@ -109,7 +109,7 @@ shopt -s nullglob
 for NAME in *
 do
         echo $NAME
-        TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+        TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
         if [[ `file -b "$NAME"` == directory ]]; then
         mv -v "$NAME" "$TRS"
         cd "$TRS"
@@ -134,7 +134,7 @@ shopt -s nullglob
 for NAME in *
 do
         echo $NAME
-        TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+        TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
         if [[ `file -b "$NAME"` == directory ]]; then
         mv -v "$NAME" "$TRS"
         cd "$TRS"
@@ -159,7 +159,7 @@ shopt -s nullglob
 for NAME in *
 do
         echo $NAME
-        TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+        TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
         if [[ `file -b "$NAME"` == directory ]]; then
         mv -v "$NAME" "$TRS"
         cd "$TRS"
@@ -184,7 +184,7 @@ shopt -s nullglob
 for NAME in *
 do
         echo $NAME
-        TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+        TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
         if [[ `file -b "$NAME"` == directory ]]; then
         mv -v "$NAME" "$TRS"
         cd "$TRS"
@@ -209,7 +209,7 @@ shopt -s nullglob
 for NAME in *
 do
         echo $NAME
-        TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+        TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
         if [[ `file -b "$NAME"` == directory ]]; then
         mv -v "$NAME" "$TRS"
         cd "$TRS"
@@ -234,7 +234,7 @@ shopt -s nullglob
 for NAME in *
 do
         echo $NAME
-        TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+        TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
         if [[ `file -b "$NAME"` == directory ]]; then
         mv -v "$NAME" "$TRS"
         cd "$TRS"
@@ -259,7 +259,7 @@ shopt -s nullglob
 for NAME in *
 do
         echo $NAME
-        TRS=`php /project/scripts/transliterate.php -s "$NAME"`
+        TRS=`php /project/scripts/zone/transliterate.php -s "$NAME"`
         if [[ `file -b "$NAME"` == directory ]]; then
         mv -v "$NAME" "$TRS"
         cd "$TRS"

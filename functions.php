@@ -196,6 +196,10 @@ charset="utf-8"></script>
  data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter,odnoklassniki,moimir,lj,gplus"
 ></div>
 <br>
+
+<p style="color:#a9a9a9">Вы можете скачать или посмотреть онлайн клип {$opt['name']}, а также видео клипы как русских так и зарубежных исполнителей.</p>
+<p style="color:#a9a9a9">Скачать {$opt['name']} или смотреть клип {$opt['name']} онлайн.</p>
+
 HTML;
 	return addslashes($ret);
 }
